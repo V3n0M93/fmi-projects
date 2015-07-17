@@ -1,0 +1,5 @@
+(define (sum-of-divisors n)
+  (define (sum-iter sum i)
+    (if (<= i n) (if (= (remainder n i) 0)(sum-iter (+ sum i) (+ i 1)) (sum-iter sum (+ i 1))) sum)
+    )
+  (sum-iter 1 2))
