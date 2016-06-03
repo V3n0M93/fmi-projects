@@ -1,0 +1,87 @@
+.menu {
+	width: 28%;
+	float: left;
+}
+
+.document {
+	width: 65%;
+	float: right;
+	margin-right: 1%;
+	background-color: #AFAFAF;
+	padding: 2em;
+	border-radius: 5em;
+}
+
+body {
+	background-color: #CFCFCF;
+}
+
+.document h1 {
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+#geolocation button{
+	border: solid #97BF0E 1px;
+	color: white;
+	background: #97BF0E;
+	padding-top: 0px;
+	border-radius: 8px;
+	float: center;
+}
+
+#geolocation {
+	text-align: center;
+	background-color: #CFCFCF;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+#geolocation p {
+	text-align: center;
+}
+
+.center-container {
+	text-align: center;
+}
+
+pre .str, code .str { color: green; } 
+pre .kwd, code .kwd { color: orange; } 
+pre .typ, code .typ { color: #89bdff; } 
+pre .lit, code .lit { color: blue; }
+pre .pun, code .pun { color: white; }
+pre .pln, code .pln { color: white; } 
+pre .tag, code .tag { color: #89bdff; } 
+pre .atn, code .atn { color: green; } 
+pre .atv, code .atv { color: yellow; } 
+pre .dec, code .dec { color: blue; } 
+
+pre.prettyprint, code.prettyprint {
+    background-color: black;
+    border-radius: 8px;
+}
+
+.floating-menu {
+    font-family: sans-serif;
+    background: black;
+    padding: 5px;;
+    width: 20%;
+    z-index: 100;
+    position: fixed;
+    border-radius: 1em;
+}
+
+.floating-menu a, 
+.floating-menu h3 {
+	color: orange;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-family: sans-serif;
+	padding: 5px;
+	display: block;
+	border-bottom: 1px solid #A9A9A9;
+}
